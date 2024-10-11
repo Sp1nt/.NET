@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "1. FirstProjectCSharp": {
+      "commandName": "Project"
+    },
+    "Profile 1": {
+      "commandName": "Project"
+    }
+  }
+}
