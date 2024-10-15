@@ -33,64 +33,10 @@ foreach (int i in data)
 
 //task 2
 
-Console.Write("Введите размер матрицы N (нечётное число): ");
-int N = int.Parse(Console.ReadLine());
-
-if (N % 2 == 0)
-{
-    Console.WriteLine("Введите нечётное число.");
-    return;
-}
-
-int[,] matrix = new int[N, N];
-
-int x = N / 2;
-int y = N / 2;
-
-matrix[x, y] = 1;
-
-int value = 2;
-int step = 1;
-
-while (value <= N)
-{
-    for (int i = 0; i < step; i++)
-    {
-        matrix[--x, y] = value++;
-    }
-
-    for (int i = 0; i < step; i++)
-    {
-        matrix[x, --y] = value++;
-    }
-
-    step++;
-
-    for (int i = 0; i < step; i++)
-    {
-        matrix[++x, y] = value++;
-    }
-
-    for (int i = 0; i < step; i++)
-    {
-        matrix[x, ++y] = value++;
-    }
-
-    step++;
-}
-
-Console.WriteLine("Result:");
-for (int i = 0; i < N; i++)
-{
-    for (int j = 0; j < N; j++)
-    {
-        Console.Write(matrix[i, j].ToString().PadLeft(4));
-    }
-    Console.WriteLine();
-}
-
-
+//soon
 
 //task 3
+
+//soon
 
 
