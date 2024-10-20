@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoClassHw", "AutoClassHw.csproj", "{4CCD7A51-99B8-4360-8814-466D693C584B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoHwClass", "..\AutoHwClass\AutoHwClass.csproj", "{ACC4FB60-524B-4688-A38B-A5A68B206040}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CCD7A51-99B8-4360-8814-466D693C584B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CCD7A51-99B8-4360-8814-466D693C584B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CCD7A51-99B8-4360-8814-466D693C584B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CCD7A51-99B8-4360-8814-466D693C584B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACC4FB60-524B-4688-A38B-A5A68B206040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACC4FB60-524B-4688-A38B-A5A68B206040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACC4FB60-524B-4688-A38B-A5A68B206040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACC4FB60-524B-4688-A38B-A5A68B206040}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1ED0C26E-E168-4740-919A-BA154AC06FD2}
+	EndGlobalSection
+EndGlobal
